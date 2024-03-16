@@ -1,0 +1,30 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: aqua; */
+}
+
+.upper_half {
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(0deg, rgb(255, 255, 255, 0) 2.3%, rgb(255, 0, 0, 1) 97.7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower_half {
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(0deg, rgb(43, 0, 255, 1) 2.3%, rgb(255, 255, 255, 0) 97.7%);
+
+}
+
+.line {
+    height: 5px;
+    width: 100%;
+    background-color: black;
+}
