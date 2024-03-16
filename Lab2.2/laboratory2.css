@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#square {
+    background-color: blue;
+    height: 120px;
+    width: 120px;
+    transition: 8s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#square:hover {
+    background-color: red;
+    top: calc(100% - 120px);
+    left: calc(100% - 120px);
+}
