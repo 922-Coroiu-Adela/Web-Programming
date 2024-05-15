@@ -1,0 +1,23 @@
+#puzzle {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3px;
+    width: 300px;
+    height: 300px;
+}
+
+.puzzle_piece {
+    width: 100px;
+    height: 100px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.selected {
+    border: 3px solid rgb(255, 47, 241);
+}
+
